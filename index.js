@@ -28,7 +28,7 @@ function currentLine(katzDeliLine){
     for(let i=1; i<katzDeliLine.length; i++){
       order[i-1]=`${i}. `
     }
-    for(let j=0; j<katzDeliLine.length: j++){
+    for(let j=0; j<katzDeliLine.length; j++){
       name[j] = `${katzDeliLine[j]},`
     }
   }
