@@ -25,7 +25,7 @@ function currentLine(katzDeliLine){
   } else{
 
     for(let i=0; i<katzDeliLine.length; i++){
-      order[i]=`${i+1}. ${katzDeliLine[i]}`
+      order[i]=`${i+1}. ${katzDeliLine[i]} `
     }
   }
   return string + order
