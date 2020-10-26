@@ -25,11 +25,9 @@ function currentLine(katzDeliLine){
     return "The line is currently empty.";
   } else{
 
-    for(let i=1; i<katzDeliLine.length; i++){
-      order[i-1]=`${i}. `
-    }
-    for(let j=0; j<katzDeliLine.length; j++){
-      name[j] = `${katzDeliLine[j]},`
+    for(let i=0; i<katzDeliLine.length; i++){
+      order[i]=`${i}. `
+      name[i] = `${katzDeliLine[i]}`
     }
   }
   return string + order + name
