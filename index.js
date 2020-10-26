@@ -18,14 +18,14 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
-  var string = "The line is currently: ";
+  var string = "The line is currently:";
   var order = [];
   if(katzDeliLine.length === 0){
     return "The line is currently empty.";
   } else{
 
     for(let i=0; i<katzDeliLine.length; i++){
-      order[i]=`${i+1}. ${katzDeliLine[i]}`
+      order[i]=` ${i+1}. ${katzDeliLine[i]}`
     }
   }
   return string + order
